@@ -1,0 +1,11 @@
+.text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h1 {
+    color: darkblue;
+    font-size: large;
+    text-align: center;
+}
