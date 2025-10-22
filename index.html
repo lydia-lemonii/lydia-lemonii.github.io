@@ -7,10 +7,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <main>
-        <h1>Страница</h1>
-        <p class="text">Здесь должно быть написано что-то полезное и интересное.</p>
-    </main>
-    
+    <div class="container">
+  <form>
+    <h2>Регистрация</h2>
+    <label for="name">Имя
+    <input type="text" id="name" name="name" required>
+    </label>
+    <label for="email">Электронная почта
+    <input type="email" id="email" name="email" required>
+    </label>
+    <label for="passw">Пароль
+    <input type="password" id="passw" name="passw" required>
+    </label>
+    <label for="passw">Подтверждение пароля
+    <input type="password" name="passw" id="passw" required>
+    </label>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+  </div>
 </body>
 </html>
